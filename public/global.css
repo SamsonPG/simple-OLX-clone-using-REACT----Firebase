@@ -1,0 +1,38 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.alignItemCenter {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alignItemSpaceBetween {
+  justify-content: space-between;
+  align-items: center;
+} */
+/* Ensure content fits within the viewport */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+/* Set box sizing to include padding and border in width */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure proper scaling on mobile devices */
+meta[name="viewport"] {
+  width: device-width;
+  initial-scale: 1;
+  maximum-scale: 1;
+  user-scalable: no;
+}

@@ -1,0 +1,25 @@
+/* Ensure content fits within the viewport */
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+  }
+  
+  /* Set box sizing to include padding and border in width */
+  * {
+    box-sizing: border-box;
+  }
+    
+  /* Center elements horizontally and vertically */
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Define max-width and center elements */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding to the content area */
+  }
